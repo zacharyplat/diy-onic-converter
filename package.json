@@ -1,0 +1,14 @@
+{
+  "name": "friendbuy-diy-onic-converter",
+  "version": "1.0.0",
+  "description": "Coding challenge to make your own (DIY) “bionic reading converter.”",
+  "repository": "https://github.com/friendbuy/diy-onic-converter",
+  "author": "Friendbuy",
+  "private": true,
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "start": "http-server"
+  }
+}
