@@ -19,7 +19,7 @@ The following challenge seeks to highlight your knowledge of the following:
 1. Fork this repo https://github.com/friendbuy/diy-onic-converter
 2. Clone the repository locally on your computer
 3. Install dependencies by invoking `yarn` or `npm install`
-4. Start the local web server at via `yarn start` or `npm start` (`http://localhost:8080/`)
+4. Start the local web server via `yarn start` or `npm start` (`http://localhost:8080/`)
 5. Implement the requested function in _/public/diy-onic-converter.js_ (see below)
 6. Test your function by calling it from the console of the test web page (see below)
 7. Commit as frequently as needed and push your code accordingly
