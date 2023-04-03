@@ -43,6 +43,11 @@ Write a function that will accept a CSS selector string as an argument—this ha
 
 > Note that we aren’t giving an exact definition of how bionic reading format is determined. A reasonable facsimile will do, even if it does not match the official [bionic reading conversion](https://api.bionic-reading.com/convert/) exactly. See additional [Criteria](#criteria) below.
 
+Example of expected result:
+Before                        | After
+------------------------------|------------------------------
+![](images/before-static.png) | ![](images/after-static.png)
+
 ### 3. Document your work
 
 Edit _README.md_ so that it describes your function. State what it does, how it does it, and provide instructions on how to use it—the more turnkey, the better!
