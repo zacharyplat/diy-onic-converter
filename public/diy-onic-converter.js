@@ -14,7 +14,6 @@ const convertPTags = (element) => {
 };
 const diyOnicConverter = (textContentContainerSelector) => {
   const container = document.querySelector(textContentContainerSelector);
-  console.log("Performing bionic reading conversion on:", container);
   const elementsMapable = [...container.children];
   elementsMapable.map((element) =>
     element.tagName === "P" ? convertPTags(element) : element
@@ -24,4 +23,3 @@ const diyOnicConverter = (textContentContainerSelector) => {
 
 // Allow global access so that this can be executed from the console.
 window.diyOnicConverter = diyOnicConverter;
-diyOnicConverter("body");
