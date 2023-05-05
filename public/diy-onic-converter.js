@@ -28,12 +28,20 @@ const convertAllTags = (element) => {
   }
   return newElement;
 };
+const wrapAndHideContent = (element) => {
+  const html = element.innerHTML;
+  div = document.createElement("div");
+  div.style.display = "none";
+  div.innerHTML = html;
+  element.innerHTML = div.outerHTML;
+};
 const diyOnicConverter = (textContentContainerSelector) => {
   const container = document.querySelector(textContentContainerSelector);
   const elementsMapable = [...container.children];
   const convertedElements = elementsMapable.map((element) =>
     convertAllTags(element)
   );
+  wrapAndHideContent(container);
   convertedElements.forEach((element) => container.appendChild(element));
 };
 
